@@ -3,8 +3,8 @@ package codegen_test
 import (
 	"testing"
 
-	"github.com/morlay/gin-swagger/codegen"
 	"github.com/stretchr/testify/assert"
+	"github.com/wusphinx/gin-swagger/codegen"
 )
 
 func TestPrinter(tt *testing.T) {

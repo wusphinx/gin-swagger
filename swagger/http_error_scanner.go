@@ -4,8 +4,8 @@ import (
 	"go/ast"
 	"go/types"
 
-	"github.com/morlay/gin-swagger/http_error_code"
-	"github.com/morlay/gin-swagger/program"
+	"github.com/wusphinx/gin-swagger/http_error_code"
+	"github.com/wusphinx/gin-swagger/program"
 )
 
 func NewHttpErrorScanner() *HttpErrorScanner {

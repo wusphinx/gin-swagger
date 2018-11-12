@@ -1,8 +1,8 @@
 package test
 
 import (
-	"github.com/morlay/gin-swagger/example/test2"
 	"github.com/gin-gonic/gin"
+	"github.com/wusphinx/gin-swagger/example/test2"
 )
 
 func SetupUserRoutes(userRouter *gin.RouterGroup) {

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/go-openapi/spec"
-	"github.com/morlay/gin-swagger/codegen"
+	"github.com/wusphinx/gin-swagger/codegen"
 )
 
 func NewClientGenerator(name string, baseClient string) *ClientGenerator {

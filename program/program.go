@@ -6,16 +6,13 @@ import (
 	"go/parser"
 	"go/token"
 	"go/types"
+	"log"
 	"sort"
 	"strings"
 
-	"log"
-
-	"golang.org/x/tools/go/loader"
-
 	"github.com/logrusorgru/aurora"
-
-	"github.com/morlay/gin-swagger/codegen"
+	"github.com/wusphinx/gin-swagger/codegen"
+	"golang.org/x/tools/go/loader"
 )
 
 type Program struct {

@@ -3,7 +3,7 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/morlay/gin-swagger/swagger_to_client"
+	"github.com/wusphinx/gin-swagger/swagger_to_client"
 )
 
 var (
@@ -25,7 +25,7 @@ var cmdClient = &cobra.Command{
 func init() {
 	cmdClient.Flags().StringVarP(&cmdClientFlagInput, "input", "", "swagger.json", "swagger json file path")
 	cmdClient.Flags().StringVarP(&cmdClientFlagClientName, "name", "", "service", "client name")
-	cmdClient.Flags().StringVarP(&cmdClientFlagBaseClient, "base-client", "", "github.com/morlay/gin-swagger/swagger_to_client/client", "client name")
+	cmdClient.Flags().StringVarP(&cmdClientFlagBaseClient, "base-client", "", "github.com/wusphinx/gin-swagger/swagger_to_client/client", "client name")
 
 	cmdRoot.AddCommand(cmdClient)
 }

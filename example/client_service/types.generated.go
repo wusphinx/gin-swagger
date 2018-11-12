@@ -1,7 +1,7 @@
 package client_service
 
 import (
-	"github.com/morlay/gin-swagger/example/test2"
+	"github.com/wusphinx/gin-swagger/example/test2"
 )
 
 type Common struct {

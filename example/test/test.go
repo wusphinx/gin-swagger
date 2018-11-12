@@ -8,9 +8,9 @@ import (
 
 	"mime/multipart"
 
-	"github.com/morlay/gin-swagger/example/from_request"
-	"github.com/morlay/gin-swagger/example/globals"
-	"github.com/morlay/gin-swagger/example/test2"
+	"github.com/wusphinx/gin-swagger/example/from_request"
+	"github.com/wusphinx/gin-swagger/example/globals"
+	"github.com/wusphinx/gin-swagger/example/test2"
 )
 
 // ErrorMap

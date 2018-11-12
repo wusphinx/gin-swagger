@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/morlay/gin-swagger/example/test2"
+	"github.com/wusphinx/gin-swagger/example/test2"
 )
 
 // Summary

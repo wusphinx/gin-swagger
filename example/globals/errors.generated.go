@@ -1,7 +1,7 @@
 package globals
 
 import (
-	"github.com/morlay/gin-swagger/http_error_code/httplib"
+	"github.com/wusphinx/gin-swagger/http_error_code/httplib"
 )
 
 func init() {

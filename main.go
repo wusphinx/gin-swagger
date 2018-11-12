@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/morlay/gin-swagger/cmd"
+	"github.com/wusphinx/gin-swagger/cmd"
 )
 
 func main() {

@@ -5,7 +5,7 @@ import (
 	"sort"
 
 	"github.com/go-openapi/spec"
-	"github.com/morlay/gin-swagger/codegen"
+	"github.com/wusphinx/gin-swagger/codegen"
 )
 
 func getFieldsFromSchema(schema spec.Schema) (fields []string, deps []string) {

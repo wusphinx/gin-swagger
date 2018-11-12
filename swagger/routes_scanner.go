@@ -1,13 +1,11 @@
 package swagger
 
 import (
-	"go/types"
-
 	"go/ast"
-
+	"go/types"
 	"path"
 
-	"github.com/morlay/gin-swagger/program"
+	"github.com/wusphinx/gin-swagger/program"
 )
 
 func NewGroup(path string, args ...ast.Expr) *Route {

@@ -2,18 +2,16 @@ package http_error_code
 
 import (
 	"fmt"
+	"go/build"
 	"go/types"
 	"os"
 	"path/filepath"
+	"sort"
 	"strconv"
 	"strings"
 
-	"sort"
-
-	"go/build"
-
-	"github.com/morlay/gin-swagger/codegen"
-	"github.com/morlay/gin-swagger/program"
+	"github.com/wusphinx/gin-swagger/codegen"
+	"github.com/wusphinx/gin-swagger/program"
 )
 
 func NewErrorGenerator(packagePath string, errorRegisterMethod string) *ErrorGenerator {

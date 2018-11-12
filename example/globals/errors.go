@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/morlay/gin-swagger/http_error_code/httplib"
+	"github.com/wusphinx/gin-swagger/http_error_code/httplib"
 )
 
 const (

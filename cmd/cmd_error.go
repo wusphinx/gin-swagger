@@ -3,7 +3,7 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/morlay/gin-swagger/http_error_code"
+	"github.com/wusphinx/gin-swagger/http_error_code"
 )
 
 var (
@@ -20,7 +20,7 @@ var cmdError = &cobra.Command{
 }
 
 func init() {
-	cmdError.Flags().StringVarP(&cmdErrorFlagErrorRegisterMethod, "error-register-method", "r", "github.com/morlay/gin-swagger/http_error_code/httplib.RegisterError", "error register method")
+	cmdError.Flags().StringVarP(&cmdErrorFlagErrorRegisterMethod, "error-register-method", "r", "github.com/wusphinx/gin-swagger/http_error_code/httplib.RegisterError", "error register method")
 
 	cmdRoot.AddCommand(cmdError)
 }

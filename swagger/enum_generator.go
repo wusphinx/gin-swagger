@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/morlay/gin-swagger/codegen"
-	"github.com/morlay/gin-swagger/program"
+	"github.com/wusphinx/gin-swagger/codegen"
+	"github.com/wusphinx/gin-swagger/program"
 )
 
 func NewEnumGenerator(packagePath string, registerEnumMethod string) *EnumGenerator {

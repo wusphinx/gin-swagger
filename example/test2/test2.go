@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/morlay/gin-swagger/example/globals"
+	"github.com/wusphinx/gin-swagger/example/globals"
 )
 
 // swagger:strfmt date-time

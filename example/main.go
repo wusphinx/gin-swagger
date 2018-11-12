@@ -5,9 +5,9 @@ package main
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/morlay/gin-swagger/example/from_request"
-	"github.com/morlay/gin-swagger/example/test"
-	"github.com/morlay/gin-swagger/example/test3"
+	"github.com/wusphinx/gin-swagger/example/from_request"
+	"github.com/wusphinx/gin-swagger/example/test"
+	"github.com/wusphinx/gin-swagger/example/test3"
 )
 
 func SetupRoutes(router *gin.Engine) {

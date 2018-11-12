@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/morlay/gin-swagger/swagger/enum"
+	"github.com/wusphinx/gin-swagger/swagger/enum"
 )
 
 var InvalidState = errors.New("invalid state")

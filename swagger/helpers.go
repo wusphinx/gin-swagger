@@ -1,12 +1,11 @@
 package swagger
 
 import (
+	"go/ast"
 	"regexp"
 	"strings"
 
-	"go/ast"
-
-	"github.com/morlay/gin-swagger/program"
+	"github.com/wusphinx/gin-swagger/program"
 )
 
 func isGinMethod(method string) bool {

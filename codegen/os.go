@@ -8,7 +8,6 @@ import (
 	"os/exec"
 	"path"
 	"path/filepath"
-
 	"strings"
 
 	"github.com/logrusorgru/aurora"

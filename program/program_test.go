@@ -14,7 +14,7 @@ func PrintCommentText(name interface{}, comments []*ast.CommentGroup) {
 	fmt.Printf("%s: %s\n", name, aurora.Sprintf(aurora.Red(str)))
 }
 
-const FIXTURES = "github.com/morlay/gin-swagger/program/fixtures"
+const FIXTURES = "github.com/wusphinx/gin-swagger/program/fixtures"
 
 func TestProgram_CommentGroupFor(t *testing.T) {
 	pkgComments := FIXTURES + "/comments"

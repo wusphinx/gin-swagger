@@ -3,8 +3,8 @@ package client_service
 import (
 	"mime/multipart"
 
-	"github.com/morlay/gin-swagger/example/test2"
-	"github.com/morlay/gin-swagger/swagger_to_client/client"
+	"github.com/wusphinx/gin-swagger/example/test2"
+	"github.com/wusphinx/gin-swagger/swagger_to_client/client"
 )
 
 type ClientService struct {

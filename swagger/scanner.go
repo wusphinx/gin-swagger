@@ -14,10 +14,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-openapi/spec"
 	"github.com/logrusorgru/aurora"
-
-	"github.com/morlay/gin-swagger/codegen"
-	"github.com/morlay/gin-swagger/http_error_code"
-	"github.com/morlay/gin-swagger/program"
+	"github.com/wusphinx/gin-swagger/codegen"
+	"github.com/wusphinx/gin-swagger/http_error_code"
+	"github.com/wusphinx/gin-swagger/program"
 )
 
 func NewScanner(packagePath string) *Scanner {

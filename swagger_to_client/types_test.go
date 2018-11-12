@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/go-openapi/spec"
-	"github.com/morlay/gin-swagger/swagger_to_client"
 	"github.com/stretchr/testify/assert"
+	"github.com/wusphinx/gin-swagger/swagger_to_client"
 )
 
 func TestGetTypeFromSchema(tt *testing.T) {
