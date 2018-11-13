@@ -1,4 +1,6 @@
 # Gin Swagger
+[![Build Status](https://travis-ci.org/wusphinx/gin-swagger.svg?branch=master)](https://travis-ci.org/wusphinx/gin-swagger)
+[![codecov](https://codecov.io/gh/wusphinx/gin-swagger/branch/master/graph/badge.svg)](https://codecov.io/gh/wusphinx/gin-swagger)
 
 Pick Swagger from code which wrote by [gin](https://github.com/gin-gonic/gin)
 
